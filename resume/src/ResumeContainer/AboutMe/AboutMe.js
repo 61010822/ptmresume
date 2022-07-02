@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
     const SCREEN_CONSTANTS = {
-        description: "My nickname is Pink. I was born in Ratchaburi on 1 January 2000. I have experience in web developer in the field of frontend developer. I really enjoy to learn about coding knowledge, and growth mindset. I want to be a part of the organization that provides me with a challenging job which helps me achieve personal as well as organizational goals",
+        description: "My nickname is Pink. I was born in Ratchaburi on 1 January 2000. I have experience in web development in the field of frontend development. I really enjoy learning about coding knowledge, and have growth mindset. I want to be a part of the organization that provides me a challenging job which helps me achieve personal as well as organizational goals",
         highlighs: {
             bullets:[
                 "Curiosity and Inquisitiveness",
