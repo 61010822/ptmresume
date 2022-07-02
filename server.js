@@ -14,9 +14,9 @@ app.use(cors())
 app.use("/", contactRouter);
 
 if(process.env.NODE_ENV === "production") {
-    app.use(express.static("resume-ebb/build"))
+    app.use(express.static("resume/build"))
     app.get("*",(req,res) => (
-        res.sendFile(path.resolve(__dirname,"resume-ebb","build","index.html"))
+        res.sendFile(path.resolve(__dirname,"resume","build","index.html"))
     ))
 }
 
