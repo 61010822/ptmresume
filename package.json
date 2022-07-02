@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "resume-ebb": "npm start --prefix resume",
-    "dev": "concurrently \"npm run server\" \"npm run resume-ebb\"",
+    "resume": "npm start --prefix resume",
+    "dev": "concurrently \"npm run server\" \"npm run resume\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix resume --legacy-peer-deps && npm run build --prefix resume",
     "start": "node server.js",
     "build": "yarn heroku-postbuild"
