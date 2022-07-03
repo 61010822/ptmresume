@@ -10,16 +10,16 @@ export default function Profile() {
                 <div className="profile-details">
                     <div className="colz">
                         <div className="colz-icon">
-                            <a target="_blank" href="https://github.com/61010822">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/61010822">
                                 <i className="fa fa-github-square"></i>
                             </a>
-                            <a target="_blank" href="https://www.linkedin.com/in/pittimon-rungrodpatomporn-9b8146244/">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/pittimon-rungrodpatomporn-9b8146244/">
                                 <i className="fa fa-linkedin-square"></i>
                             </a>
-                            <a target="_blank" href="https://www.instagram.com/iwxnnxcrychxmpxx/">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/iwxnnxcrychxmpxx/">
                                 <i className="fa fa-instagram"></i>
                             </a>
-                            <a target="_blank" href="tel:0917799819">
+                            <a target="_blank" rel="noreferrer" href="tel:0917799819">
                                 <i className="fa fa-phone-square"></i>
                             </a>
                         </div>
@@ -62,7 +62,7 @@ export default function Profile() {
                             {""}
                             Hire Me{" "}
                         </button>
-                        <a href="/resume-ebb/public#" download="Pittimon Resume">
+                        <a href="Resume_Pittimon.pdf" download="Pittimon Resume">
                             <button className="btn highlighted-btn">Get Resume</button>
                         </a>
                     </div>
